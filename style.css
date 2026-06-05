@@ -382,7 +382,10 @@
       transition: background 0.2s;
       margin-top: 8px;
     }
-    .btn-submit:hover { background: var(--orange-light); }
+    .btn-submit:hover { background: var(--green);
+      transform: translateY(-2px);
+      transform: translateX(2px);
+    }
 
     /* ─── FOOTER ─── */
     footer {
